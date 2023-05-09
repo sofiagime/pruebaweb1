@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOChtnRD0ov0PsZGWP-jDgkPf-8Z4nnGTLvQ&usqp=CAU);
 }
 
 
@@ -9,6 +9,15 @@ h1 {
     font-weight: 900;
 
 }
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+   color: rgb(255, 233, 243);
+
+}
+
 
 p {
     text-align: center;
@@ -20,7 +29,7 @@ picture {
 }
 
 picture img {
-    width: 30%;
+    width: 20%;
 }
 
 #opciones {
@@ -30,18 +39,34 @@ picture img {
 
 #opciones li {
     display: inline-block;
-    padding: 10px;
+    padding: 30px;
 }
 
 .boton {
     text-decoration: none;
     color: rgb(67, 84, 109);
-    border: 2px solid rgba(180, 191, 255, 0.842);
-    padding: 5px;
+    border: 2px solid rgba(178, 210, 252, 0.842);
+    padding: 20px;
 
 }
 
 .boton:hover {
-    background-color: rgb(195, 228, 247);
-    color: rgb(80, 104, 182);
+    background-color: rgb(191, 227, 248);
+    color: rgb(92, 101, 133);
 }
+
+#musica {
+    list-style: none;
+}
+
+header {
+    background-color: rgb(247, 237, 246);
+}
+
+p {
+    color: rgb(8, 8, 8);
+    background-color: rgb(232, 237, 243);
+    padding: 30px 20px;
+
+}
+
