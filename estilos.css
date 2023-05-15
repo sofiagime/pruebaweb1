@@ -14,7 +14,7 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
-   color: rgb(255, 233, 243);
+    color: rgb(255, 233, 243);
 
 }
 
@@ -79,3 +79,12 @@ img {
 
 }
 
+#iconos {
+    text-align: center;
+    list-style: none;
+}
+
+#iconos li {
+    display: inline-block;
+    padding: 30px;
+}
